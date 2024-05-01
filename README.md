@@ -8,7 +8,7 @@ We trained a deep-learning VGG16 model for classification of the Oxford Flowers 
 
 We acheieved accuracy of the network on the test images: 87.745098 %.
 
-We imported cleverhans to implement FGSM and PGD attacks.
+We imported cleverhans library to implement FGSM and PGD attacks.
 
 (
 

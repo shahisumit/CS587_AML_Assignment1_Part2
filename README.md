@@ -6,9 +6,6 @@ We used the Oxford Flowers Dataset ( https://www.robots.ox.ac.uk/~vgg/data/flowe
 
 We trained a deep-learning VGG16 model for classification of the Oxford Flowers dataset, using the PyTorch library. 
 
-Train a deep-learning  for classification of the Oxford Flowers dataset, using the
-PyTorch library
-
 We acheieved accuracy of the network on the test images: 87.745098 %.
 
 We imported cleverhans to implement FGSM and PGD attacks.

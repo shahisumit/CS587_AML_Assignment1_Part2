@@ -11,9 +11,13 @@ We acheieved accuracy of the network on the test images: 87.745098 %.
 We imported cleverhans to implement FGSM and PGD attacks.
 
 (
+
 import cleverhans
+
 from cleverhans.torch.attacks.fast_gradient_method import fast_gradient_method
+
 from cleverhans.torch.attacks.projected_gradient_descent import projected_gradient_descent
+
 )
 
 We then applied the FSGM and PGD attacks to create non-targeted adversarial examples using the first 200 images of the test set. The following perturbation magnitudes:  
